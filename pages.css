@@ -1,0 +1,16 @@
+/* Sub-pages Styles */
+.goals-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
+.goal-card { background: var(--card-bg); border-radius: 20px; border: 1px solid rgba(255,255,255,0.1); overflow: hidden; }
+.goal-header { padding: 1.5rem; background: rgba(99,102,241,0.1); border-bottom: 1px solid rgba(255,255,255,0.1); }
+.goal-body { padding: 1.5rem; }
+.progress-bar { height: 10px; background: rgba(255,255,255,0.1); border-radius: 5px; margin: 10px 0; overflow: hidden; }
+.progress-fill { height: 100%; background: var(--income); width: 0%; transition: width 0.5s; }
+.goal-actions { margin-top: 1rem; display: flex; gap: 10px; }
+.btn-small { padding: 5px 10px; background: var(--glass); color: white; border: 1px solid rgba(255,255,255,0.2); border-radius: 5px; cursor: pointer; }
+
+.history-list { max-height: 600px; overflow-y: auto; }
+.history-item { display: flex; justify-content: space-between; padding: 15px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.history-item:hover { background: rgba(255,255,255,0.02); }
+
+.analytics-grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+@media(min-width: 1000px) { .analytics-grid { grid-template-columns: repeat(2, 1fr); } }

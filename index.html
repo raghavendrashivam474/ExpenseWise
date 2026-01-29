@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpenseWise - Smart Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Particles -->
+    <div class="particles" id="particles"></div>
+    
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <a href="#" class="logo">
+            <i class="fas fa-wallet"></i>
+            <span>ExpenseWise</span>
+        </a>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <main class="hero">
+        <div class="hero-content">
+            <h1 class="title">
+                <span class="title-line">Master Your</span>
+                <span class="title-line gradient-text">Financial Future</span>
+            </h1>
+            
+            <!-- Interactive Quote Container -->
+            <div class="quote-container">
+                <div class="quote-box">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">
+                        "The art of smart expenditure today shapes the masterpiece of your wealthy tomorrow."
+                    </p>
+                    <i class="fas fa-quote-right quote-icon right"></i>
+                    <div class="quote-author">— Financial Wisdom</div>
+                    <div class="hover-hint">
+                        <i class="fas fa-hand-pointer"></i>
+                        <span>Hover to access</span>
+                    </div>
+                </div>
+                
+                <!-- Dropdown to Dashboard -->
+                <div class="dropdown-menu">
+                    <div class="dropdown-header">
+                        <i class="fas fa-compass"></i>
+                        <span>Quick Access</span>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <a href="dashboard.html" class="dropdown-item">
+                        <div class="item-icon"><i class="fas fa-tachometer-alt"></i></div>
+                        <div class="item-content">
+                            <span class="item-title">Dashboard</span>
+                            <span class="item-desc">Manage your expenses</span>
+                        </div>
+                        <i class="fas fa-arrow-right item-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="dashboard.html" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i> Get Started
+                </a>
+                <a href="#features" class="btn btn-secondary">
+                    <i class="fas fa-play"></i> Learn More
+                </a>
+            </div>
+        </div>
+
+        <!-- Floating Visual Elements -->
+        <div class="hero-visual">
+            <div class="floating-cards">
+                <div class="float-card card-1"><i class="fas fa-dollar-sign"></i><span>+$2,450</span></div>
+                <div class="float-card card-2"><i class="fas fa-chart-line"></i><span>+15%</span></div>
+                <div class="float-card card-3"><i class="fas fa-piggy-bank"></i><span>Saved</span></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FEATURES SECTION -->
+    <section class="features" id="features">
+        <h2 class="section-title">Why Choose ExpenseWise?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                <h3>Lightning Fast</h3>
+                <p>Add expenses in seconds with our intuitive interface designed for speed and efficiency.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                <h3>Secure & Private</h3>
+                <p>Your financial data stays safe on your device. We prioritize your privacy above all else.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fas fa-chart-bar"></i></div>
+                <h3>Smart Analytics</h3>
+                <p>Visualize spending patterns with beautiful, interactive charts and detailed graphs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="section-title">About Us</h2>
+            <p>ExpenseWise is dedicated to empowering individuals to take control of their financial destiny. We believe that financial freedom starts with simple, consistent awareness of your spending habits.</p>
+            <div class="stats-showcase">
+                <div class="stat-item"><span class="stat-number">10k+</span><span class="stat-text">Users</span></div>
+                <div class="stat-item"><span class="stat-number">5M+</span><span class="stat-text">Transactions</span></div>
+                <div class="stat-item"><span class="stat-number">4.9</span><span class="stat-text">Rating</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <p class="contact-text">Have questions or feedback? We'd love to hear from you!</p>
+            <div class="contact-buttons">
+                <a href="mailto:support@expensewise.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Email Us</a>
+                <a href="https://x.com/home" class="btn btn-secondary" target="_blank"><i class="fab fa-twitter"></i> Follow Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2024 ExpenseWise. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
